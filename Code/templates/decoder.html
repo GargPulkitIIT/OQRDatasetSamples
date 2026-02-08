@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2>OQR Decoder</h2>
+
+<form method="POST" enctype="multipart/form-data">
+    <div class="drop-zone">
+        Drag & Drop file here or click to upload
+        <input type="file" name="file" hidden required>
+    </div>
+    <button type="submit">Decode</button>
+</form>
+
+{% if v1 %}
+    <h3>Decoded Values</h3>
+    <p><b>Value 1:</b> {{ v1 }}</p>
+    <p><b>Value 2:</b> {{ v2 }}</p>
+    <p><b>Value 3:</b> {{ v3 }}</p>
+{% endif %}
+
+<script src="{{ url_for('static', filename='js/upload.js') }}"></script>
+
+{% endblock %}

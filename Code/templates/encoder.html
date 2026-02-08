@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2>OQR Encoder</h2>
+
+<form method="POST" id="encoderForm">
+    <label for="oqr-type">Select OQR Type:</label>
+    <select name="oqr_type" id="oqr-type" required onchange="updateInputFields()">
+        <option value="2">Type 2 OQR (2 values)</option>
+        <option value="3" selected>Type 3 OQR (3 values)</option>
+    </select>
+    
+    <br><br>
+    
+    <input type="text" name="v1" placeholder="Value 1" required>
+    <input type="text" name="v2" placeholder="Value 2" required>
+    <input type="text" name="v3" placeholder="Value 3" id="v3-input">
+    <button type="submit">Go</button>
+</form>
+
+<script>
+function updateInputFields() {
+    const selectType = document.getElementById('oqr-type').value;
+    const v3Input = document.getElementById('v3-input');
+    
+    if (selectType === '2') {
+        v3Input.style.display = 'none';
+        v3Input.removeAttribute('required');
+    } else {
+        v3Input.style.display = 'block';
+        v3Input.setAttribute('required', 'required');
+    }
+}
+
+// Initialize on page load
+window.addEventListener('load', updateInputFields);
+</script>
+
+{% if encoded_value %}
+    <h3>Input Values</h3>
+    <p><strong>OQR Type:</strong> Type {{ oqr_type }} OQR</p>
+    <p><strong>Value 1:</strong> {{ v1 }}</p>
+    <p><strong>Value 2:</strong> {{ v2 }}</p>
+    {% if v3 %}<p><strong>Value 3:</strong> {{ v3 }}</p>{% endif %}
+    
+    <h3>Encoded Output</h3>
+    <textarea rows="4" style="width:100%;">{{ encoded_value }}</textarea>
+    
+    {% if qr_image_base64 %}
+        <h3>Generated QR Code</h3>
+        <div style="text-align: center; margin-top: 20px;">
+            <img src="data:image/png;base64,{{ qr_image_base64 }}" alt="Generated OQR Code" style="max-width: 400px; border: 2px solid #1976d2; border-radius: 8px; padding: 10px; background: white;">
+        </div>
+    {% endif %}
+{% endif %}
+
+{% endblock %}
