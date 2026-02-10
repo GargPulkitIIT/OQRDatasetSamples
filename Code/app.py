@@ -1,55 +1,102 @@
 import os
-import base64
-import cv2
-import numpy as np
-from flask import Flask, render_template, request, redirect, url_for, flash
+from flask import (
+    Flask,
+    render_template,
+    request,
+    redirect,
+    url_for,
+    flash,
+)
 from werkzeug.utils import secure_filename
-from io import BytesIO
 
 from config import Config
 from encoder import encode
 from decoder import decode
-from OQR.Processing.OQRGenerator import OQR_Generator
+from image_utils import list_supported_formats
 
 app = Flask(__name__)
 app.config.from_object(Config)
 
+app.jinja_env.globals.update(supported_formats=list_supported_formats())
+
 os.makedirs(app.config["UPLOAD_FOLDER"], exist_ok=True)
+os.makedirs("static/generated", exist_ok=True)
+
 
 def allowed_file(filename):
-    return "." in filename and filename.rsplit(".", 1)[1].lower() in app.config["ALLOWED_EXTENSIONS"]
+    return (
+        "." in filename
+        and filename.rsplit(".", 1)[1].lower()
+        in app.config["ALLOWED_EXTENSIONS"]
+    )
+
 
 @app.route("/")
 def home():
     return redirect(url_for("encoder_page"))
 
+
 @app.route("/encoder", methods=["GET", "POST"])
 def encoder_page():
-    encoded_value = None
-    v1 = v2 = v3 = None
-    oqr_type = "3"
+    image_url = None
 
     if request.method == "POST":
-        oqr_type = request.form.get("oqr_type", "3")
-        v1 = request.form.get("v1")
-        v2 = request.form.get("v2")
-        v3 = request.form.get("v3") if oqr_type == "3" else None
+        name = request.form.get("name", "").strip()  
+        qr_type = request.form.get("type")
+        output_format = request.form.get("format", "png")  
+        if not name:
+            flash("Please provide a name for your QR code")
+            return redirect(request.url)
 
-        if oqr_type == "2":
-            encoded_value = encode(v1, v2, None)
+        if not qr_type:
+            flash("Type is required")
+            return redirect(request.url)
+
+        if qr_type == "2":
+            data2 = request.form.get("data2", "").strip()
+            data3 = request.form.get("data3", "").strip()
+
+            if not data2 or not data3:
+                flash("Data 2 and Data 3 are required for Type 2")
+                return redirect(request.url)
+
+            image_path = encode(name, "2", data3, data2, data1=None, format=output_format)
+
+        elif qr_type == "3":
+            data1 = request.form.get("data1", "").strip()
+            data2 = request.form.get("data2", "").strip()
+            data3 = request.form.get("data3", "").strip()
+
+            if not data1 or not data2 or not data3:
+                flash("Data 1, Data 2, and Data 3 are required for Type 3")
+                return redirect(request.url)
+
+            image_path = encode(name, "3", data3, data2, data1, format=output_format)
+
         else:
-            encoded_value = encode(v1, v2, v3)
+            flash("Invalid OQR type")
+            return redirect(request.url)
 
-    return render_template("encoder.html", encoded_value=encoded_value, v1=v1, v2=v2, v3=v3, oqr_type=oqr_type)
+        if not image_path:
+            flash("QR generation failed. Please try again with different data.")
+            return redirect(request.url)
+
+        flash(f"QR code generated successfully in {output_format.upper()} format!", "success")
+        filename = os.path.basename(image_path)
+        image_url = url_for("static", filename=f"generated/{filename}")
+
+    return render_template("encoder.html", image_url=image_url)
+
 
 @app.route("/decoder", methods=["GET", "POST"])
 def decoder_page():
     v1 = v2 = v3 = None
+    error_message = None
 
     if request.method == "POST":
         file = request.files.get("file")
 
-        if not file or file.filename == "":
+        if not file or not file.filename or file.filename == "":
             flash("No file selected")
             return redirect(request.url)
 
@@ -57,17 +104,18 @@ def decoder_page():
             flash("File type not allowed")
             return redirect(request.url)
 
-        filename = secure_filename(file.filename or "")
+        filename = secure_filename(file.filename)
         path = os.path.join(app.config["UPLOAD_FOLDER"], filename)
         file.save(path)
 
-        # Simulated encoded data extraction
-        with open(path, "rb") as f:
-            encoded_data = f.read().decode(errors="ignore")
+        v1, v2, v3 = decode(path)
+        
+        if v1 is None and v2 is None and v3 is None:
+            error_message = "NO OQR DETECTED - Try Again"
+            flash("No QR codes detected in the image. Please try with a clearer image.", "error")
 
-        v1, v2, v3 = decode(encoded_data)
+    return render_template("decoder.html", v1=v1, v2=v2, v3=v3, error_message=error_message)
 
-    return render_template("decoder.html", v1=v1, v2=v2, v3=v3)
 
 if __name__ == "__main__":
     app.run(debug=True)

@@ -11,11 +11,17 @@
     <button type="submit">Decode</button>
 </form>
 
-{% if v1 %}
-    <h3>Decoded Values</h3>
-    <p><b>Value 1:</b> {{ v1 }}</p>
-    <p><b>Value 2:</b> {{ v2 }}</p>
-    <p><b>Value 3:</b> {{ v3 }}</p>
+{% if error_message %}
+    <div class="error-box" style="background-color: #ffebee; border: 2px solid #f44336; color: #c62828; padding: 15px; border-radius: 5px; margin: 15px 0; text-align: center; font-weight: bold;">
+        {{ error_message }}
+    </div>
+{% elif v1 is not none or v2 is not none or v3 is not none %}
+    <div class="success-box" style="background-color: #e8f5e9; border: 2px solid #4caf50; color: #2e7d32; padding: 15px; border-radius: 5px; margin: 15px 0;">
+        <h3>Decoded Values</h3>
+        <p><b>Value 1:</b> {{ v1 if v1 else "Not found" }}</p>
+        <p><b>Value 2:</b> {{ v2 if v2 else "Not found" }}</p>
+        <p><b>Value 3:</b> {{ v3 if v3 else "Not found" }}</p>
+    </div>
 {% endif %}
 
 <script src="{{ url_for('static', filename='js/upload.js') }}"></script>

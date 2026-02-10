@@ -4,54 +4,127 @@
 <h2>OQR Encoder</h2>
 
 <form method="POST" id="encoderForm">
-    <label for="oqr-type">Select OQR Type:</label>
-    <select name="oqr_type" id="oqr-type" required onchange="updateInputFields()">
-        <option value="2">Type 2 OQR (2 values)</option>
-        <option value="3" selected>Type 3 OQR (3 values)</option>
-    </select>
-    
-    <br><br>
-    
-    <input type="text" name="v1" placeholder="Value 1" required>
-    <input type="text" name="v2" placeholder="Value 2" required>
-    <input type="text" name="v3" placeholder="Value 3" id="v3-input">
-    <button type="submit">Go</button>
+    <input type="hidden" name="name" value="sample">
+
+    <div style="display: flex; gap: 15px; margin-bottom: 15px;">
+        <div style="flex: 1;">
+            <label for="qrType" style="display: block; margin-bottom: 5px; font-weight: bold;">QR Type</label>
+            <select name="type" id="qrType" required onchange="toggleDataFields()">
+                <option value="">Select OQR Type</option>
+                <option value="2">Type 2</option>
+                <option value="3">Type 3</option>
+            </select>
+        </div>
+
+        <div style="flex: 1;">
+            <label for="format" style="display: block; margin-bottom: 5px; font-weight: bold;">Output Format</label>
+            <select name="format" id="format">
+                <option value="png">PNG </option>
+                <option value="jpg">JPG </option>
+                <option value="jpeg">JPEG </option>
+                <option value="webp">WebP </option>
+                <option value="bmp">BMP </option>
+                <option value="tiff">TIFF </option>
+            </select>
+        </div>
+    </div>
+
+    <!-- TYPE 3 ONLY - hidden by default -->
+    <div id="data1Container" style="display:none;">
+        <input type="text" name="data1" id="data1Input" placeholder="Data 1 (Very Near)" maxlength="40">
+    </div>
+
+    <!-- TYPE 2 & 3 -->
+    <input type="text" name="data2" placeholder="Data 2 (Near)" required maxlength="40">
+    <input type="text" name="data3" placeholder="Data 3 (Far)" required maxlength="40">
+
+    <button type="submit">Generate OQR</button>
 </form>
 
+{% if image_url %}
+    <div style="background-color: #e8f5e9; border: 2px solid #4caf50; color: #2e7d32; padding: 15px; border-radius: 5px; margin: 15px 0; text-align: center;">
+        <h3 style="margin: 0;">Generated Successfully!</h3>
+    </div>
+
+    <div style="text-align: center; margin: 30px 0;">
+        <img
+            src="{{ image_url }}"
+            alt="Generated OQR"
+            style="max-width:400px; border:3px solid #2196F3; padding:10px; border-radius: 5px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"
+        >
+    </div>
+
+    <div style="text-align: center;">
+        <a href="{{ image_url }}" download style="text-decoration: none;">
+            <button type="button" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">
+                📥 Download OQR
+            </button>
+        </a>
+    </div>
+{% endif %}
+
+<style>
+#qrType {
+    font-weight: 600;
+    color: #94a3b8;
+    transition: all 0.3s ease;
+}
+
+#qrType option {
+    font-weight: 500;
+    padding: 8px;
+}
+
+#qrType option[value=""] {
+    color: #64748b;
+    font-style: italic;
+}
+
+#qrType option[value="2"],
+#qrType option[value="3"] {
+    color: #000000;
+}
+
+#qrType:focus {
+    color: #000000;
+}
+
+#qrType:invalid {
+    color: #000000;
+}
+
+#data1Container {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+}
+
+#data1Container[style*="display: block"] {
+    opacity: 1;
+    max-height: 100px;
+}
+</style>
+
 <script>
-function updateInputFields() {
-    const selectType = document.getElementById('oqr-type').value;
-    const v3Input = document.getElementById('v3-input');
+function toggleDataFields() {
+    const qrType = document.getElementById('qrType').value;
+    const data1Container = document.getElementById('data1Container');
+    const data1Input = document.getElementById('data1Input');
     
-    if (selectType === '2') {
-        v3Input.style.display = 'none';
-        v3Input.removeAttribute('required');
+    if (qrType === '3') {
+        data1Container.style.display = 'block';
+        data1Input.required = true;
     } else {
-        v3Input.style.display = 'block';
-        v3Input.setAttribute('required', 'required');
+        data1Container.style.display = 'none';
+        data1Input.required = false;
+        data1Input.value = ''; 
     }
 }
 
-// Initialize on page load
-window.addEventListener('load', updateInputFields);
+document.addEventListener('DOMContentLoaded', function() {
+    toggleDataFields();
+});
 </script>
-
-{% if encoded_value %}
-    <h3>Input Values</h3>
-    <p><strong>OQR Type:</strong> Type {{ oqr_type }} OQR</p>
-    <p><strong>Value 1:</strong> {{ v1 }}</p>
-    <p><strong>Value 2:</strong> {{ v2 }}</p>
-    {% if v3 %}<p><strong>Value 3:</strong> {{ v3 }}</p>{% endif %}
-    
-    <h3>Encoded Output</h3>
-    <textarea rows="4" style="width:100%;">{{ encoded_value }}</textarea>
-    
-    {% if qr_image_base64 %}
-        <h3>Generated QR Code</h3>
-        <div style="text-align: center; margin-top: 20px;">
-            <img src="data:image/png;base64,{{ qr_image_base64 }}" alt="Generated OQR Code" style="max-width: 400px; border: 2px solid #1976d2; border-radius: 8px; padding: 10px; background: white;">
-        </div>
-    {% endif %}
-{% endif %}
 
 {% endblock %}
