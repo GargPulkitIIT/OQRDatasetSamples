@@ -1,0 +1,399 @@
+2L_OQR_1_LL_1
+Fresh Bread Now
+http://baker.co
+
+2L_OQR_1_LL_2
+http://garden.me
+Spring Planting
+
+2L_OQR_1_LL_3
+Mountain Hiking
+Best Views Here
+
+2L_OQR_1_LL_4
+Coffee Roasted
+http://brew.cafe
+
+2L_OQR_1_LL_5
+Jazz Music Live
+Downtown Venue
+
+2L_OQR_1_MM_1
+Quick Lunch
+http://deli.me
+
+2L_OQR_1_MM_2
+Yoga Classes
+Morning Time
+
+2L_OQR_1_MM_3
+http://bike.co
+Repair Shop
+
+2L_OQR_1_MM_4
+Book Club
+Join Today
+
+2L_OQR_1_MM_5
+Paint Art
+http://art.fun
+
+2L_OQR_1_QQ_1
+Beach Day
+Surf Time
+
+2L_OQR_1_QQ_2
+http://z.me
+Visit Now
+
+2L_OQR_1_QQ_3
+Taco Deal
+Best Price
+
+2L_OQR_1_QQ_4
+Movie Fun
+http://tv.m
+
+2L_OQR_1_QQ_5
+Gym Pass
+Try Free
+
+2L_OQR_1_HH_1
+Pizza
+Half
+
+2L_OQR_1_HH_2
+google
+Tours
+
+2L_OQR_1_HH_3
+Rock
+Live
+
+2L_OQR_1_HH_4
+https:
+Pets
+
+2L_OQR_1_HH_5
+Ice
+Fun
+
+2L_OQR_2_LL_1
+Farmers Market Opens Saturday
+http://local.market/fresh
+
+2L_OQR_2_LL_2
+Photography Exhibition Downtown
+http://gallery.space/photos
+
+2L_OQR_2_LL_3
+http://yoga.retreat/mountain
+Wellness Weekend Getaway Trip
+
+2L_OQR_2_LL_4
+Cooking Class Italian Cuisine
+Professional Chef Instructions
+
+2L_OQR_2_LL_5
+Vintage Car Show This Sunday
+http://autoshow.events/cars
+
+2L_OQR_2_MM_1
+Guitar Lessons Available
+http://music.edu/guitar
+
+2L_OQR_2_MM_2
+http://swim.pool/kids
+Swimming Classes Safe
+
+2L_OQR_2_MM_3
+Pottery Studio Open House
+Evening Sessions Free
+
+2L_OQR_2_MM_4
+http://chess.club/join
+Weekly Tournament Games
+
+2L_OQR_2_MM_5
+Garden Center Spring Sale
+http://green.nursery/sale
+
+2L_OQR_2_QQ_1
+Theater Play Tonight
+http://stage.lv/show
+
+2L_OQR_2_QQ_2
+Bakery Workshop Fun
+http://bake.school/4
+
+2L_OQR_2_QQ_3
+http://run.club/now
+Marathon Training
+
+2L_OQR_2_QQ_4
+Wine Tasting Daily
+http://vineyard.me/4
+
+2L_OQR_2_QQ_5
+Dance Studio Friday
+Live Band Music
+
+2L_OQR_2_HH_1
+Cafe Breakfast
+http://cafe.me
+
+2L_OQR_2_HH_2
+http://skate/
+Ramps Open
+
+2L_OQR_2_HH_3
+Karaoke Night
+Drinks Songs
+
+2L_OQR_2_HH_4
+http://comic/
+New Releases
+
+2L_OQR_2_HH_5
+Bowling League
+Teams Join
+
+2L_OQR_3_LL_1
+http://adventure.park/zipline/tours/forest/canopy
+Outdoor Zipline Tours Through Forest Canopy Everyday
+
+2L_OQR_3_LL_2
+Chocolate Factory Tours Available Every Day Now
+http://choco.factory/tours/schedule/booking/online
+
+2L_OQR_3_LL_3
+Scuba Diving Certification Course Starts Very Soon
+http://dive.school/certification/open/water/classes
+
+2L_OQR_3_LL_4
+Antique Book Fair Rare Manuscripts Display For Sale
+http://rare.books/fair/schedule/events/weekend/show
+
+2L_OQR_3_LL_5
+http://pottery.collective/workshop/ceramic/art/create
+Ceramic Art Classes For All Skill Levels. Welcome
+
+2L_OQR_3_MM_1
+http://climbing.gym/belay/training/safe
+Indoor Rock Climbing Walls Open Daily Now
+
+2L_OQR_3_MM_2
+Laser Tag Arena Birthday Parties Available
+http://laser.games/party/booking/group
+
+2L_OQR_3_MM_3
+Astronomy Club Stargazing Night Events Now
+http://stars.observatory/events/schedule
+
+2L_OQR_3_MM_4
+http://martial.arts/karate/classes/kids
+Karate Classes Traditional Japanese Style
+
+2L_OQR_3_MM_5
+Farmers Co Op Fresh Eggs And Dairy Product
+http://farm.coop/delivery/service/local
+
+2L_OQR_3_QQ_1
+http://escape.room/mystery/game
+Puzzle Rooms Team Challenges Fun
+
+2L_OQR_3_QQ_2
+Pottery Painting Walk In Welcome
+http://paint.pottery/studio/open
+
+2L_OQR_3_QQ_3
+http://language.center/spanish/4
+Spanish Conversation Classes Now
+
+2L_OQR_3_QQ_4
+Archery Range Lessons Equipment
+http://arrow.range/archery/safe
+
+2L_OQR_3_QQ_5
+http://jazz.lounge/schedule/live
+Live Music Every Weekend Night
+
+2L_OQR_3_HH_1
+Sushi Making Workshop
+http://sushi.class/rol
+
+2L_OQR_3_HH_2
+http://mini.golf/course
+Mini Golf Eighteen Holes
+
+2L_OQR_3_HH_3
+Meditation Session Peace
+http://calm.center/peace
+
+2L_OQR_3_HH_4
+http://vinyl.shop/record
+Vintage Albums Sale Now
+
+2L_OQR_3_HH_5
+Origami Classes PaperArt
+http://fold.studio/
+
+2L_OQR_4_LL_1
+http://portrait.studio/booking/packages/family/individual/groups/session
+Professional Photography Studio Portrait Sessions Natural Lighting Indoors
+
+2L_OQR_4_LL_2
+http://woodworking.workshop/furniture/custom/building/classes/joinery/craft
+Custom Furniture Building Classes Start This Month Learn Joinery Techniques
+
+2L_OQR_4_LL_3
+Beekeeping Workshop Learn Honey Production Methods Urban Farming Techniques
+http://urban.bees/workshop/safety/equipment/suits/training/provided/students
+
+2L_OQR_4_LL_4
+http://sailing.academy/courses/certification/ocean/navigation/safety/training
+Ocean Sailing Certification Programs Begin In Spring Navigation Skills Safety
+
+2L_OQR_4_LL_5
+Glassblowing Studio Open House This Weekend Only Watch Artists Create Glass
+http://hot.glass/demonstration/schedule/events/paperweight/souvenir/pieces
+
+2L_OQR_4_MM_1
+http://barbecue.school/smoking/meats/low/slow/cooking
+Smoking Meats Low And Slow Cooking Class Learn Rubs Marinades
+
+2L_OQR_4_MM_2
+Bird Watching Guided Nature Walks Daily Binoculars Provided
+http://feather.trails/birdwatching/tours/nature/guides/walk
+
+2L_OQR_4_MM_3
+http://improv.theater/classes/comedy/improvisation/weekly
+Comedy Improvisation Classes Build Confidence Weekly Sessions
+
+2L_OQR_4_MM_4
+Silk Screening Workshop Print Your Own Designs Custom Tshirts
+http://screen.print/workshop/custom/designs/tshirts/posters
+
+2L_OQR_4_MM_5
+http://drone.academy/flying/lessons/safety/certification/
+Drone Flying Lessons & Safety Certification Aerial Photography
+
+2L_OQR_4_QQ_1
+http://pottery.wheel/throwing/intensive/course
+Wheel Throwing Intensive Weekend Course Clay
+
+2L_OQR_4_QQ_2
+Kombucha Brewing Workshop Fermentation Basics
+http://ferment.lab/kombucha/brewing/flavoring
+
+2L_OQR_4_QQ_3
+http://canoe.rental/river/trips/scenic/routes
+River Canoeing Trips Scenic Routes Paddling
+
+2L_OQR_4_QQ_4
+Calligraphy Classes Modern & Traditional Style
+http://ink.pen/calligraphy/brush/lettering/pen
+
+2L_OQR_4_QQ_5
+http://metal.forge/blacksmith/basics/tools
+Blacksmithing Basics Forge Your Own Tools
+
+2L_OQR_4_HH_1
+Cheese Making Fresh Mozzarella
+http://dairy.kitchen/cheese/maker/
+
+2L_OQR_4_HH_2
+http://jugglingschool/circus/skill
+Circus Skill Workshop: Juggling
+
+2L_OQR_4_HH_3
+Hydroponics Garden Setup Workshop
+http://grow.indoor/hydro/nutrients
+
+2L_OQR_4_HH_4
+http://magic.academy/tricks/height
+Card Magic Sleight Of Hand Lessons
+
+2L_OQR_4_HH_5
+Leather Crafting Make Your Wallet
+http://leather/crafting/stitching
+
+2L_OQR_5_LL_1
+http://wilderness.survival/bushcraft/training/expedition/weekend/immersion/fire/shelter/water
+Wilderness Survival Immersion Weekend Training Expedition Fire Starting Without Matches Shelter
+
+2L_OQR_5_LL_2
+Historic Walking Tour Victorian Architecture Downtown District Expert Guides Share Stories Lives
+http://heritage.walks/victorian/architecture/downtown/district/guides/stories/residents/past
+
+2L_OQR_5_LL_3
+http://molecular.gastronomy/cooking/advanced/workshop/techniques/spherification/emulsification
+Molecular Gastronomy Advanced Cooking Techniques Workshop Spherification Emulsification Foams
+
+2L_OQR_5_LL_4
+http://stained.glass/artisan/workshop/design/creation/master/class/copper/foil/lead/came/tech
+Stained Glass Window Design And Creation Master Class Traditional Copper Foil Lead Came Taught
+
+2L_OQR_5_LL_5
+Permaculture Design Certificate Intensive Course Twelve Weeks Sustainable Agriculture Systems Food
+http://permaculture.institute/design/certificate/intensive/course/sustainable/agriculture/soil
+
+2L_OQR_5_MM_1
+http://telescope.making/optics/mirror/grinding/workshop/precision/glass
+Build Your Own Telescope Mirror Grinding Workshop Optical Theory Precision Glass
+
+2L_OQR_5_MM_2
+Sourdough Bread Baking Science And Art Combined Starter Cultivation Fermentation
+http://artisan.bread/sourdough/baking/science/art/starter/fermentation/oven
+
+2L_OQR_5_MM_3
+http://knife.forging/bladesmithing/course/damascus/steel/knives/heat/treatment
+Bladesmithing Course Forge Damascus Steel Knives Heat Treatment Quenching Tempering
+
+2L_OQR_5_MM_4
+http://bonsai.mastery/japanese/cultivation/advanced/techniques/pruning/wiring
+Japanese Bonsai Cultivation Advanced Techniques Root Pruning Wiring Styling Methods
+
+2L_OQR_5_MM_5
+Letterpress Printing Vintage Typography Workshop Metal Type Setting Hand Cranked
+http://press.type/letterpress/printing/vintage/typography/metal/type/setting/ink
+
+2L_OQR_5_QQ_1
+http://hot.air.balloon/pilot/training/certification
+Hot Air Balloon Pilot Training Certification Flight
+
+2L_OQR_5_QQ_2
+Taxidermy Arts Preservation Techniques Course Legal
+http://specimen.art/taxidermy/preservation/skinning
+
+2L_OQR_5_QQ_3
+http://locksmith.training/security/systems/install
+Locksmithing And Security Systems Installation Pin
+
+2L_OQR_5_QQ_4
+http://beekeeping.commercial/apiaries/large/scale
+Commercial Beekeeping Large Scale Operations Queen
+
+2L_OQR_5_QQ_5
+Chainsaw Carving Sculpture From Raw Timber Safety
+http://timber.sculpt/chainsaw/carving/sculpture
+
+2L_OQR_5_HH_1
+http://espresso.barista/latte/art/mastery
+Advanced Barista Skills Latte Art Mastery
+
+2L_OQR_5_HH_2
+Mushroom Cultivation Gourmet Varieties
+http://fungi/mushrooms/cultivation/spawn
+
+2L_OQR_5_HH_3
+http://clock/horology/watch/movement
+Watch & Clock Repair Horology Course Now
+
+2L_OQR_5_HH_4
+http://pasta.making/fresh/italian/tradition
+Fresh Pasta Making Tradition Italian Dough
+
+2L_OQR_5_HH_5
+Neon Sign Bending Glass Tube Artistry Today
+http://neon.art/bending/glasstube/electrode

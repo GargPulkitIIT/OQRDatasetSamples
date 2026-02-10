@@ -1,0 +1,500 @@
+3L_OQR_1_LQQ_1
+Hello World 2025
+Secure Code
+Optical QR
+
+3L_OQR_1_LQQ_2
+Pizza Delivery
+Available
+http://food
+
+3L_OQR_1_LQQ_3
+Music Streaming
+Play Favs
+http://rado
+
+3L_OQR_1_LQQ_4
+Digital Library
+Read Online
+lib.us
+
+3L_OQR_1_LQQ_5
+Sports Updates
+Latest Sc
+espn.me
+
+3L_OQR_1_LQH_1
+Coffee Shop Open
+Fresh Brew
+MORNING
+
+3L_OQR_1_LQH_2
+Gaming Zone Fun
+Start Play
+LEVEL-1
+
+3L_OQR_1_LQH_3
+Photo Share App
+Snap Upload
+PIC.JPG
+
+3L_OQR_1_LQH_4
+Hotel Booking
+Reserve Now
+ROOM-5B
+
+3L_OQR_1_LQH_5
+Movie Streaming
+Watch Films
+HD/4K
+
+3L_OQR_1_LHQ_1
+Winter Weather
+Cold
+SNOW-10
+
+3L_OQR_1_LHQ_2
+Garden Tips Now
+SPRING
+Grow Plants
+
+
+3L_OQR_1_LHQ_3
+Travel Deals Go
+$199-NY
+Fly Cheap
+
+3L_OQR_1_LHQ_4
+Dance Studio
+7PM-9PM
+Move Groove
+
+3L_OQR_1_LHQ_5
+Art Gallery Open
+MON-FRI
+Paint Show
+
+3L_OQR_1_LHH_1
+Store Sale
+50% OFF
+Buy Now
+
+3L_OQR_1_LHH_2
+Radio Live
+Tune In
+FM-101
+
+3L_OQR_1_LHH_3
+Train Pass
+Ride On
+ZONE-3
+
+3L_OQR_1_LHH_4
+Beach Surf
+WaveFun
+10AM-6PM
+
+3L_OQR_1_LHH_5
+Wine Tour
+Taste.
+$25/PP
+
+3L_OQR_2_LQQ_1
+Summer Festival Returns 2025
+Live Music All Night
+https://ticket/event
+
+3L_OQR_2_LQQ_2
+Fresh Bakery Goods Daily Open
+Open 7AM-9PM AllDay
+https://bread/menu
+
+3L_OQR_2_LQQ_3
+Vintage Clothing Sale Now On
+50% Off Everything
+https://deals/
+
+3L_OQR_2_LQQ_4
+Yoga Class Schedule Updated
+Beginner Friendly
+https://wellness/
+
+3L_OQR_2_LQQ_5
+Auto Repair Service Available
+Same Day Fixes
+mechanic.me/book
+
+3L_OQR_2_LQH_1
+Pizza Delivery Fast Service
+Call Us Today
+pizza.me/go
+
+3L_OQR_2_LQH_2
+Pet Grooming Services Here
+Book Appointment
+paws.me/book
+
+3L_OQR_2_LQH_3
+Bike Rental Station Open
+Hourly Daily Rates
+cycle.me/rent
+
+3L_OQR_2_LQH_4
+Laundry Drop Off Service
+Quick Wash Ready
+clean.me/go
+
+3L_OQR_2_LQH_5
+Taxi Service Ready Now
+Available 24 Hours
+ride.me/call
+
+3L_OQR_2_LHQ_1
+Gym Membership Offers Here
+Join Today
+fitness.me/join
+
+3L_OQR_2_LHQ_2
+Flower Delivery Same Day
+Fresh Bouquets
+https://blooms.me/
+
+3L_OQR_2_LHQ_3
+Piano Lessons For All Ages
+Beginner!!
+music.me/piano
+
+3L_OQR_2_LHQ_4
+Dentist Office New Patients
+Appointments
+smile.me/new
+
+3L_OQR_2_LHQ_5
+Barber Shop Walk Ins OK
+No Appointment
+https://cuts.me/
+
+3L_OQR_2_LHH_1
+Lunch Menu Today
+Soup & Salad
+SPECIAL-$8
+
+3L_OQR_2_LHH_2
+Car Wash Express
+Fast Shine
+BASIC-$15
+
+3L_OQR_2_LHH_3
+Game Night Fun
+Trivia Quiz
+WED-8PM
+
+3L_OQR_2_LHH_4
+Shoe Repair Shop
+Quick Fix
+HEEL-$12
+
+3L_OQR_2_LHH_5
+Ice Cream Parlor
+Daily Specials
+BUY-1-GET-1
+
+3L_OQR_3_LQQ_1
+Downtown Farmers Market Open Saturday Morning
+Organic Produce Fresh Local
+https://localfarm.market/go
+
+3L_OQR_3_LQQ_2
+Electric Guitar Workshop Starts Today Evening
+Learn Classic Rock Riffs Fast
+https://rockschool.online/go
+
+3L_OQR_3_LQQ_3
+Himalayan Trekking Adventure Packages
+Guided Mountain Tours April
+https://mountain.expeditions/go
+
+3L_OQR_3_LQQ_4
+Comedy Show This Weekend Only Hurry Book Now
+Last Tickets Selling Out Fast
+https://laughfactory.tickets/go
+
+3L_OQR_3_LQQ_5
+Antique Furniture Auction Live Events Here
+Rare Vintage Collections Now
+https://vintage.auctions/go
+
+3L_OQR_3_LQH_1
+Sushi Buffet Lunch Special Deal Today Yummy
+All You Can Eat Menu
+https://fresh.sushi/go
+
+3L_OQR_3_LQH_2
+Pottery Classes Weekend Sessions Available Now
+Beginner Advanced Levels
+https://clay.studio/go
+
+3L_OQR_3_LQH_3
+Marathon Training Group Runs Daily Practice Now
+Daily Sessions Open Now
+https://run.together/go
+
+3L_OQR_3_LQH_4
+Magic Show Tonight Amazing Tricks Performance Fun
+Family Entertainment All
+https://illusion.fun/go
+
+3L_OQR_3_LQH_5
+Wine Tasting Special Event Today Evening Party
+Premium Vineyard Selection
+https://cellar.tours/go
+
+3L_OQR_3_LHQ_1
+Language Exchange Meetup Weekly Sessions
+Practice Speaking
+https://polyglot.meet/go
+
+3L_OQR_3_LHQ_2
+Camping Gear Sale This Month Only Limited Time
+Outdoor Equip Discounts
+https://trail.supply/go
+
+3L_OQR_3_LHQ_3
+Salsa Dance Party Every Friday Night Dance Fun
+Beginner Lessons Free
+https://latin.dance/go
+
+3L_OQR_3_LHQ_4
+Robotics Workshop Build And Code Fun Activities
+Learn Programming Robots
+https://makers.lab/go
+
+3L_OQR_3_LHQ_5
+Chess Tournament Registration Open Now Hurry Up
+Register Online Deadline
+https://board.games/go
+
+3L_OQR_3_LHH_1
+Tacos Tuesday Half Price
+Amazing Street Food
+DEAL-$5-EACH
+
+3L_OQR_3_LHH_2
+Karaoke Night Singing Fun
+Sing Your Heart Out
+WED/FRI-9PM
+
+3L_OQR_3_LHH_3
+Kayak Rentals River Tours
+Adventure On Water
+$30-2HRS
+
+3L_OQR_3_LHH_4
+Bonsai Workshop Tree Care
+Learn Trimming Art
+SAT-10AM
+
+3L_OQR_3_LHH_5
+Jazz Concert Live Band Show
+Amazing Musicians Play
+TONIGHT-$20
+
+3L_OQR_4_LQQ_1
+Vintage Motorcycle Restoration Workshop Available Every Weekend Now
+Classic Bikes From 1960s Era Rebuilt
+https://retro.motorcycles/restoration
+
+3L_OQR_4_LQQ_2
+Astronomy Night Telescope Viewing Session Tonight Under Stars Now
+Planets Stars Galaxies Visible Now
+https://observatory.nights/stargazing
+
+3L_OQR_4_LQQ_3
+Organic Honey Farm Tours Available Every Single Day Of Week Now
+Beekeeping Demonstrations Free Always
+https://sweetharvest.farm/tours
+
+3L_OQR_4_LQQ_4
+Detective Mystery Dinner Theatre Show This Weekend Only Special Now
+Solve Crime While You Dine Friends
+https://whodunit.dinner/mystery
+
+3L_OQR_4_LQQ_5
+Skateboard Park Grand Opening Ceremony Celebration This Weekend Now
+Professional Demos Free Lessons All
+https://extreme.skatepark/opening
+
+3L_OQR_4_LQH_1
+Gelato Flavors Available Daily Special Italian Style Treats Here
+Authentic Italian Frozen Treats
+https://sweet.gelato/flavors
+
+3L_OQR_4_LQH_2
+Archery Lessons Starting Now Today Available For Everyone Here
+Precision Training All Levels
+https://bulls.eye/archery
+
+3L_OQR_4_LQH_3
+Jazz Brunch Sunday Special Event With Music And Delicious Food
+Live Music Gourmet Dining
+https://smooth.jazz/brunch
+
+3L_OQR_4_LQH_4
+Escape Room Challenge Team Event Building Skills Together Fun
+Solve Puzzles Have Great Fun
+https://locked.room/escape
+
+3L_OQR_4_LQH_5
+Ceramic Painting Creative Workshop For All Ages Skill Levels Here
+Learn Pottery Glazing Arts
+https://glaze.studio/go
+
+3L_OQR_4_LHQ_1
+Sailing Lessons Ocean Adventures Available Now
+Learn To Navigate Waters
+https://yacht.school/sailing
+
+3L_OQR_4_LHQ_2
+Butterfly Garden Nature Exhibits Display Now
+Beautiful Wings And Flowers
+https://wings.park/go
+
+3L_OQR_4_LHQ_3
+Chocolate Making Artisan Classes Here Today
+Learn From Expert Chocolatiers
+https://cocoa.lab/chocolate
+
+3L_OQR_4_LHQ_4
+Meditation Retreat Peaceful Escape Away Now
+Tranquil Mountain Getaway Trip
+https://zen.sanctuary/retreat
+
+3L_OQR_4_LHQ_5
+Graffiti Art Walking Tour Event Today Now
+Urban Street Culture History
+https://urban.canvas/graffiti
+
+3L_OQR_4_LHH_1
+Smoothie Bar Fresh Juice Daily Special
+Healthy Fruit Blends Made
+PROTEIN-$7&UP
+
+3L_OQR_4_LHH_2
+Bowling League Friday Games Night Fun
+Join Our Weekly Nights Fun
+STRIKE-3/$15
+
+3L_OQR_4_LHH_3
+Magic Tricks Workshop Class Today Fun
+Learn Amazing Illusions Now
+DECK-CARDS
+
+3L_OQR_4_LHH_4
+Comic Books Rare Editions Store Here
+Vintage And New Releases
+MARVEL-$25
+
+3L_OQR_4_LHH_5
+Drum Circles Rhythm Nights Music Fun
+Community Music Jam Session
+THU-7PM-10
+
+3L_OQR_5_LQQ_1
+Wilderness Survival Skills Training Bootcamp Experience Full Weekend Adventure Now
+Learn Fire Starting Shelter Building Navigation
+https://bushcraft.academy/survival
+
+3L_OQR_5_LQQ_2
+International Food Festival Happening This Weekend Only Event With Cuisine Now
+Cuisine From Forty Countries Featured Here
+https://global.flavors/festival
+
+3L_OQR_5_LQQ_3
+Championship Basketball Tournament Semifinals Game Tonight Watch Live Action Now
+Watch Best Teams Compete Trophy Glory
+https://hoops.tournament/semifinals
+
+3L_OQR_5_LQQ_4
+Contemporary Art Gallery Opening Reception Special Event With Artists Tonight Now
+Featuring Local Artists Mixed Media Display
+https://modern.artspace/opening
+
+3L_OQR_5_LQQ_5
+Electric Vehicle Expo And Test Drive Event This Weekend Showing New Models Now
+Latest Models From Manufacturers Display
+https://future.mobility/expo
+
+3L_OQR_5_LQH_1
+Craft Beer Tasting Festival Event Today With Local Breweries Participating Now
+Fifty Local Breweries Participating
+https://hop.festival/tasting
+
+3L_OQR_5_LQH_2
+Origami Workshop Paper Folding Art Class Traditional Japanese Style Techniques
+Traditional Japanese Techniques Taught
+https://fold.paper/origami
+
+3L_OQR_5_LQH_3
+Horseback Riding Scenic Trail Tours Through Beautiful Mountain Valley Routes Now
+Beautiful Mountain Valley Routes Daily
+https://stable.rides/trails
+
+3L_OQR_5_LQH_4
+Juggling Lessons Circus Skills Fun Learning From Professional Performers Here Now
+Learn From Professional Performers
+https://toss.academy/juggling
+
+3L_OQR_5_LQH_5
+Fashion Runway Designer Showcase Week With Latest Trends And Collections Here Now
+Latest Trends Style Collections Here
+https://style.week/runway
+
+3L_OQR_5_LHQ_1
+Photography Walking Tour Event Today Capture Cityscapes
+Capture Stunning Urban Cityscapes Here
+https://lens.tour/photography
+
+3L_OQR_5_LHQ_2
+Cooking Classes Master Chef Tips Here Professional Techniques
+Professional Culinary Techniques Taught
+https://gourmet.edu/cooking
+
+3L_OQR_5_LHQ_3
+Indoor Climbing Gym Beginner Routes Available For All Now
+Safe Walls For All Skill Levels Here
+https://summit.gym/climbing
+
+3L_OQR_5_LHQ_4
+Blues Harmonica Lessons Weekly Class Learn To Play Harp Now
+Learn To Play The Blues Harp Now
+https://harp.school/harmonica
+
+3L_OQR_5_LHQ_5
+Soap Making Laboratory Workshop Natural Products Ingredients
+Natural Products And Ingredients Used
+https://pure.suds/soapmaking
+
+3L_OQR_5_LHH_1
+Bubble Tea Shop Boba Paradise Delicious Flavors Today
+Delicious Flavors And Pearls Here
+MATCHA-$6/TARO-$5.50
+
+3L_OQR_5_LHH_2
+Mini Golf Course Family Fun Day Eighteen Holes Adventure Fun
+Eighteen Holes Of Adventure Fun
+KIDS-$8&ADULTS-$12
+
+3L_OQR_5_LHH_3
+Vinyl Records Classic Albums Store Rare Finds Collections Now
+Rare Finds And Collections Here
+BEATLES-$45-LP
+
+3L_OQR_5_LHH_4
+Poetry Reading Open Mic Night Fun Share Your Words Listen Now
+Share Your Words And Listen Here
+FRI-8PM-CAFE-FREE
+
+3L_OQR_5_LHH_5
+Candle Workshop Scent Blending Class Create Custom Fragrances Now
+Create Custom Fragrance Candles
+LAVENDER/VANILLA-$35
